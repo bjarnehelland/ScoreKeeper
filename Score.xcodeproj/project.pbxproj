@@ -13,7 +13,6 @@
 		4D40CA8D2382F6D7006C2AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D40CA8C2382F6D7006C2AF3 /* Assets.xcassets */; };
 		4D40CA902382F6D7006C2AF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D40CA8F2382F6D7006C2AF3 /* Preview Assets.xcassets */; };
 		4D40CA932382F6D7006C2AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D40CA912382F6D7006C2AF3 /* LaunchScreen.storyboard */; };
-		4D40CA9B2383265A006C2AF3 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40CA9A2383265A006C2AF3 /* ScoreView.swift */; };
 		4D4837842383421200AA0FAF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4837822383421200AA0FAF /* Interface.storyboard */; };
 		4D4837862383421400AA0FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4837852383421400AA0FAF /* Assets.xcassets */; };
 		4D48378D2383421400AA0FAF /* WatchScore Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D48378C2383421400AA0FAF /* WatchScore Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -25,6 +24,8 @@
 		4D48379C2383421500AA0FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D48379B2383421500AA0FAF /* Assets.xcassets */; };
 		4D48379F2383421500AA0FAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D48379E2383421500AA0FAF /* Preview Assets.xcassets */; };
 		4D4837A42383421500AA0FAF /* WatchScore.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D4837802383421200AA0FAF /* WatchScore.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4DDD84A7238344AB00B63AEE /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40CA9A2383265A006C2AF3 /* ScoreView.swift */; };
+		4DDD84A82383455600B63AEE /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40CA9A2383265A006C2AF3 /* ScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,8 +140,8 @@
 				4D40CA862382F6D4006C2AF3 /* AppDelegate.swift */,
 				4D40CA882382F6D4006C2AF3 /* SceneDelegate.swift */,
 				4D40CA8A2382F6D4006C2AF3 /* ContentView.swift */,
-				4D40CA9A2383265A006C2AF3 /* ScoreView.swift */,
 				4D40CA8C2382F6D7006C2AF3 /* Assets.xcassets */,
+				4D40CA9A2383265A006C2AF3 /* ScoreView.swift */,
 				4D40CA912382F6D7006C2AF3 /* LaunchScreen.storyboard */,
 				4D40CA942382F6D7006C2AF3 /* Info.plist */,
 				4D40CA8E2382F6D7006C2AF3 /* Preview Content */,
@@ -324,7 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D40CA872382F6D4006C2AF3 /* AppDelegate.swift in Sources */,
-				4D40CA9B2383265A006C2AF3 /* ScoreView.swift in Sources */,
+				4DDD84A7238344AB00B63AEE /* ScoreView.swift in Sources */,
 				4D40CA892382F6D4006C2AF3 /* SceneDelegate.swift in Sources */,
 				4D40CA8B2382F6D4006C2AF3 /* ContentView.swift in Sources */,
 			);
@@ -339,6 +340,7 @@
 				4D4837982383421400AA0FAF /* NotificationController.swift in Sources */,
 				4D4837962383421400AA0FAF /* ExtensionDelegate.swift in Sources */,
 				4D48379A2383421400AA0FAF /* NotificationView.swift in Sources */,
+				4DDD84A82383455600B63AEE /* ScoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

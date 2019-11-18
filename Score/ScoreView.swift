@@ -14,7 +14,6 @@ struct ScoreView: View {
     var body: some View {
         Button(action: {self.score += 1}){
             Text("\(score)")
-                .font(.system(size: 100))
                 .frame(maxWidth: .infinity)
                 .foregroundColor(Color.primary)
         }
@@ -23,7 +22,7 @@ struct ScoreView: View {
 
 
 struct ScoreView_Previews: PreviewProvider {
-     @State static var score = 3
+    @State static var score = 3
     
     static var previews: some View {
         ScoreView(score: $score)
