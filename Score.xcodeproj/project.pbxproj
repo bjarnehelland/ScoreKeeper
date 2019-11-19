@@ -26,6 +26,8 @@
 		4D4837A42383421500AA0FAF /* WatchScore.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D4837802383421200AA0FAF /* WatchScore.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4DDD84A7238344AB00B63AEE /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40CA9A2383265A006C2AF3 /* ScoreView.swift */; };
 		4DDD84A82383455600B63AEE /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40CA9A2383265A006C2AF3 /* ScoreView.swift */; };
+		4DDD84AD238351A100B63AEE /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD84AC238351A100B63AEE /* UserData.swift */; };
+		4DDD84AE238351A100B63AEE /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD84AC238351A100B63AEE /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,7 @@
 		4D48379E2383421500AA0FAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D4837A02383421500AA0FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D4837A12383421500AA0FAF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4DDD84AC238351A100B63AEE /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,7 @@
 				4D40CA912382F6D7006C2AF3 /* LaunchScreen.storyboard */,
 				4D40CA942382F6D7006C2AF3 /* Info.plist */,
 				4D40CA8E2382F6D7006C2AF3 /* Preview Content */,
+				4DDD84AC238351A100B63AEE /* UserData.swift */,
 			);
 			path = Score;
 			sourceTree = "<group>";
@@ -327,6 +331,7 @@
 				4D40CA872382F6D4006C2AF3 /* AppDelegate.swift in Sources */,
 				4DDD84A7238344AB00B63AEE /* ScoreView.swift in Sources */,
 				4D40CA892382F6D4006C2AF3 /* SceneDelegate.swift in Sources */,
+				4DDD84AD238351A100B63AEE /* UserData.swift in Sources */,
 				4D40CA8B2382F6D4006C2AF3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +342,7 @@
 			files = (
 				4D4837942383421400AA0FAF /* HostingController.swift in Sources */,
 				4D4837922383421400AA0FAF /* ContentView.swift in Sources */,
+				4DDD84AE238351A100B63AEE /* UserData.swift in Sources */,
 				4D4837982383421400AA0FAF /* NotificationController.swift in Sources */,
 				4D4837962383421400AA0FAF /* ExtensionDelegate.swift in Sources */,
 				4D48379A2383421400AA0FAF /* NotificationView.swift in Sources */,

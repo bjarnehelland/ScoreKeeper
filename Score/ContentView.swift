@@ -12,7 +12,6 @@ struct ContentView: View {
     @State private var homeScore = 0
     @State private var awayScore = 0
     
-    
     var body: some View {
         VStack {
             HStack {
